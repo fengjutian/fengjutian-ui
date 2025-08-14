@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MixUi",
+  title: "FENGJUTIAN-UI",
   description: "Npx tool component library",
 };
 

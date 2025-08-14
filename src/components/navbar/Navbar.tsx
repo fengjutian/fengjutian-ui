@@ -69,7 +69,7 @@ function Navbar() {
                 />
               )}
               <Link
-                href="https://github.com/taqui-786/mixui"
+                href="https://github.com/fengjutian/fengjutian-ui"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 rounded-lg
