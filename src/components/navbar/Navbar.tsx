@@ -69,7 +69,7 @@ function Navbar() {
                 />
               )}
               <Link
-                href="https://github.com/fengjutian/liyaoyao-ui"
+                href="https://github.com/fengjutian/fengjutian-ui"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 rounded-lg
@@ -81,7 +81,7 @@ function Navbar() {
               >
                 <Github className="h-5 w-5 dark:text-white" />
                 <span className="font-medium dark:text-white">
-                  Star on GitHub
+                  GitHub
                 </span>
               </Link>
             </div>
