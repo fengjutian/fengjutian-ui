@@ -17,7 +17,7 @@ function Navbar() {
         <Link className="flex text-primary items-center gap-2" href="/">
           {/* <Image src={logo} alt='mylogo'  priority loading='eager' className='h-10 w-auto' /> */}
           <span className="text-3xl dark:text-white font-bold font-mono">
-            LIYAOYAO-UI
+            FENGJUTIAN-UI
           </span>
           {isDocsPage && (
             <>

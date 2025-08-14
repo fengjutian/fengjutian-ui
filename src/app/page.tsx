@@ -59,7 +59,7 @@ export default function Home() {
             variants={popIn}
             className="text-5xl md:text-7xl font-bold text-black dark:text-white"
           >
-            shadcn/ui ∘ liyaoyao-ui
+            shadcn/ui ∘ fengjutian-ui
           </motion.h1>
 
           <motion.p
