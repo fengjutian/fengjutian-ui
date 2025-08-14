@@ -1,6 +1,5 @@
 'use client'
 
-
 import { CarouselExample } from "@/components/customPreview/CarouselPreview";
 import { buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -38,6 +37,17 @@ function ComponentsPage() {
     },
     {
       title: "Carousel",
+      description: "This is a carousel component support all embla carousel features.",
+      href: "/docs/components/MultiCarousel",
+      tags: ["carousel", "slider", "gallery"],
+      preview: (
+        <div className="w-[350px]">
+          <CarouselExample />
+        </div>
+      ),
+    },
+    {
+      title: "Button",
       description: "This is a carousel component support all embla carousel features.",
       href: "/docs/components/MultiCarousel",
       tags: ["carousel", "slider", "gallery"],

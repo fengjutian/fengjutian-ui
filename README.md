@@ -1,8 +1,8 @@
-# fengjutian-UI
+# liyaoyao-UI
 
-![fengjutian-UI Banner](public/banner.jpeg)
+![liyaoyao-UI Banner](public/banner.jpeg)
 
-A perfect composition of beautiful components and powerful animations. fengjutian-UI is a modern, responsive UI component library built with React and TypeScript.
+A perfect composition of beautiful components and powerful animations. liyaoyao-UI is a modern, responsive UI component library built with React and TypeScript.
 
 ## 🚀 Features
 

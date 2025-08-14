@@ -17,7 +17,7 @@ function Navbar() {
         <Link className="flex text-primary items-center gap-2" href="/">
           {/* <Image src={logo} alt='mylogo'  priority loading='eager' className='h-10 w-auto' /> */}
           <span className="text-3xl dark:text-white font-bold font-mono">
-            FENGJUTIAN-UI
+            LIYAOYAO-UI
           </span>
           {isDocsPage && (
             <>
@@ -69,7 +69,7 @@ function Navbar() {
                 />
               )}
               <Link
-                href="https://github.com/fengjutian/fengjutian-ui"
+                href="https://github.com/fengjutian/liyaoyao-ui"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 rounded-lg
