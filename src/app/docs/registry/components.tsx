@@ -14,6 +14,8 @@ import {
 } from "@/components/uiComponents/MultiCarousel";
 import AutoScroll from "embla-carousel-auto-scroll";
 
+import {Markitdown} from "./markitdown";
+
 export type ComponentType = {
   name: string;
   installName: string;
@@ -407,44 +409,44 @@ export default function Example() {
       "A carousel component that supports all embla carousel features.",
     sourcePath: "uiComponents/MultiCarousel.tsx",
     code: `import {
-  Carousel,
-  CarouselMainContainer,
-  CarouselThumbsContainer,
-  SliderMainItem,
-  SliderThumbItem,
-} from "@/components/uiComponents/MultiCarousel";
+      Carousel,
+      CarouselMainContainer,
+      CarouselThumbsContainer,
+      SliderMainItem,
+      SliderThumbItem,
+    } from "@/components/uiComponents/MultiCarousel";
 
-export default function Example() {
-  return (
-    <Carousel orientation="vertical" className="flex items-center gap-2">
-      <div className="relative basis-3/4">
-        <CarouselMainContainer className="h-60">
-          {Array.from({ length: 10 }).map((_, index) => (
-            <SliderMainItem
-              key={index}
-              className="border border-muted flex items-center justify-center h-52 rounded-md"
-            >
-              Slide {index + 1}
-            </SliderMainItem>
-          ))}
-        </CarouselMainContainer>
-      </div>
-      <CarouselThumbsContainer className="h-60 basis-1/4">
-        {Array.from({ length: 10 }).map((_, index) => (
-          <SliderThumbItem
-            key={index}
-            index={index}
-            className="rounded-md bg-transparent"
-          >
-            <span className="border border-muted flex items-center justify-center h-full w-full rounded-md cursor-pointer bg-background">
-              Slide {index + 1}
-            </span>
-          </SliderThumbItem>
-        ))}
-      </CarouselThumbsContainer>
-    </Carousel>
-  );
-}`,
+    export default function Example() {
+      return (
+        <Carousel orientation="vertical" className="flex items-center gap-2">
+          <div className="relative basis-3/4">
+            <CarouselMainContainer className="h-60">
+              {Array.from({ length: 10 }).map((_, index) => (
+                <SliderMainItem
+                  key={index}
+                  className="border border-muted flex items-center justify-center h-52 rounded-md"
+                >
+                  Slide {index + 1}
+                </SliderMainItem>
+              ))}
+            </CarouselMainContainer>
+          </div>
+              <CarouselThumbsContainer className="h-60 basis-1/4">
+                {Array.from({ length: 10 }).map((_, index) => (
+                  <SliderThumbItem
+                    key={index}
+                    index={index}
+                    className="rounded-md bg-transparent"
+                  >
+                    <span className="border border-muted flex items-center justify-center h-full w-full rounded-md cursor-pointer bg-background">
+                      Slide {index + 1}
+                    </span>
+                  </SliderThumbItem>
+                ))}
+              </CarouselThumbsContainer>
+            </Carousel>
+          );
+        }`,
     props: [
       {
         name: "carouselOptions",
@@ -661,6 +663,7 @@ export default function Example() {
       },
     ],
   },
+  'Markitdown': Markitdown.markitdown
 };
 
 async function fetchComponentSource(path: string): Promise<string> {

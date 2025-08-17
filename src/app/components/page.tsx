@@ -153,7 +153,7 @@ function ComponentsPage() {
             <div className="text-center">
               <div className="text-4xl mb-4">✨</div>
               <h3 className="text-xl font-semibold text-muted-foreground mb-2">
-                More Components
+                更多组件
               </h3>
               <p className="text-sm text-muted-foreground">
                 New components are being crafted
